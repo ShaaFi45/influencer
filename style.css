@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;  
+    margin-top: 87px;
+}
+
+nav span h1{
+    margin-left: 120px;
+    font-style: bold;
+    font-size: 30px;
+}
+
+nav span a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 80px;
+    font-weight: 100;
+    color: black;
+
+}
+.introduction {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.introduction  div { 
+   margin-right: 50px;
+}
+.introduction  .welcome { 
+  
+   max-width: 900px;
+}
+
+.main-camera{
+    margin-left: 220px;
+    background-image: linear-gradient(rgba(157, 195, 221, 0.837), rgba(38, 83, 167, 0.207));
+    border-radius: 100%;
+    
+    
+}
+
+
+.main-camera img{
+   width: 530px;
+   height: 504;
+}
+
+.introduction div h1{
+    margin-left: 120px;
+    font-size: 52px;
+}
+.introduction div h2{
+
+    margin-left: 120px;
+
+}
+
+.introduction div button{
+    background-color: #89b2f5;
+    margin-left: 120px;
+
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+
+hr { 
+    border-top: 1px solid #8c8b8b;
+     margin-left: 200px;
+      margin-right: 200px;
+  } 
+
+
+  .website-logo{
+      display: flex;
+      justify-content: space-around;
+      align-items:center;  
+      margin-left: 300px;
+      margin-right: 300px;
+      height: 100px;
+  }
+
+  .website-logo img{
+    height: 40px;
+}
