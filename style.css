@@ -28,7 +28,8 @@ nav span a{
 .introduction {
     display: flex;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
+    flex-wrap: nowrap;
 }
 .introduction  div { 
    margin-right: 50px;
@@ -76,8 +77,8 @@ nav span a{
 
 hr { 
     border-top: 1px solid #8c8b8b;
-     margin-left: 200px;
-      margin-right: 200px;
+     margin-left: 120px;
+      margin-right: 120px;
   } 
 
 
@@ -92,4 +93,27 @@ hr {
 
   .website-logo img{
     height: 40px;
+}
+.collection-items{
+    background-color: peru;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+
+
+.collection-box{
+    width: 329px;
+    height: 476px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border : 2px solid gold;
+    border-radius: 10px;
+}
+.photo img{
+    width: 100%;
+    border-radius: 10px;
 }
